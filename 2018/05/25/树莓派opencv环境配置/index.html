@@ -79,19 +79,19 @@
 
 
 
-<meta name="description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、CmakeCMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefile文件">
+<meta name="description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器#安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、Cmake###CMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派opencv环境配置">
 <meta property="og:url" content="http://yoursite.com/2018/05/25/树莓派opencv环境配置/index.html">
 <meta property="og:site_name" content="DongHua and DeXian &#39;Blog">
-<meta property="og:description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、CmakeCMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefile文件">
+<meta property="og:description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器#安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、Cmake###CMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefi">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1ftlugr5zyhj20iu0d1mza.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/05/25/树莓派opencv环境配置/%22http://wx2.sinaimg.cn/mw690/d4213200gy1ftlu0vqm06j20hs0apdii.jpg%22">
-<meta property="og:updated_time" content="2018-07-25T01:25:23.633Z">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/d4213200gy1ftlu0vqm06j20hs0apdii.jpg">
+<meta property="og:updated_time" content="2018-07-25T01:34:30.385Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派opencv环境配置">
-<meta name="twitter:description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、CmakeCMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefile文件">
+<meta name="twitter:description" content="主要思路:在网上下载opencv的源码包进行本地的编译 #一、安装opencv编译器#安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。 ###1、Cmake###CMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。 总的来说，cmake可以生成Makefi">
 <meta name="twitter:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1ftlugr5zyhj20iu0d1mza.jpg">
 
 
@@ -280,7 +280,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-07-25T09:25:23+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-07-25T09:34:30+08:00">
                 2018-07-25
               </time>
             
@@ -315,39 +315,39 @@
 
       
         <h1 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路:"></a><strong>主要思路:</strong></h1><p>在网上下载opencv的源码包进行本地的编译</p>
-<p>#<strong>一、安装opencv编译器</strong><br>安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。</p>
-<p>###1、Cmake<br>CMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。</p>
+<p>#<strong>一、安装opencv编译器</strong>#<br>安装opencv所要用到的软件主要有几个：cmake、git、pkg-config、gcc。</p>
+<p>###1、Cmake###<br>CMake是一个跨平台的安装(编译)工具,可以用简单的语句来描述所有平台的安装(编译过程)。他能够输出各种各样的makefile或者project文件。</p>
 <p>总的来说，cmake可以生成Makefile文件，单系统执行编译命令的时候可以按照Makefile文件进行编译（可以认为是编译的说明书(#^.^#)）</p>
-<p>###2、Git<br>Git是一个开源的分布式版本控制系统。分布式相比于集中式的最大区别在于开发者可以提交到本地，每个开发者通过克隆（git clone），在本地机器上拷贝一个完整的Git仓库。</p>
+<p>###2、Git###<br>Git是一个开源的分布式版本控制系统。分布式相比于集中式的最大区别在于开发者可以提交到本地，每个开发者通过克隆（git clone），在本地机器上拷贝一个完整的Git仓库。</p>
 <p>可以利用这个命令方便的从GitHub上面clone一些优质的开源项目的源代码。比如说可以从GitHub上Clone opencv的源代码。</p>
-<p>###3、Pkg-config<br>pkg-config 是一个在源代码编译时查询已安装的库的使用接口的计算机工具软件.</p>
-<p>###4、Build-essential<br>Build-essential是一个编译软件。在进行软件的编译，需要gcc/g++等，都需要用到这个。当然也可以分别单独安装gcc/g++的软件包，用build-essential 只不过方便管理。</p>
-<p>###5、GCC<br>gcc是原名为GNU C语言编译器（GNU C Compiler），因为它原本只能处理C语言。GCC很快地扩展，变得可处理C++。之后也变得可处理Fortran、Pascal、Objective-C、Java、Ada，以及Go与其他语言。</p>
+<p>###3、Pkg-config###<br>pkg-config 是一个在源代码编译时查询已安装的库的使用接口的计算机工具软件.</p>
+<p>###4、Build-essential###<br>Build-essential是一个编译软件。在进行软件的编译，需要gcc/g++等，都需要用到这个。当然也可以分别单独安装gcc/g++的软件包，用build-essential 只不过方便管理。</p>
+<p>###5、GCC###<br>gcc是原名为GNU C语言编译器（GNU C Compiler），因为它原本只能处理C语言。GCC很快地扩展，变得可处理C++。之后也变得可处理Fortran、Pascal、Objective-C、Java、Ada，以及Go与其他语言。</p>
 <p>简而言之，GCC是一个把c语言变成二进制机器语言的一个“翻译工具”。</p>
 <p><center><strong>综上</strong></center><br>输入命令<code>sudo apt install gcc cmake git pkg-config</code></p>
-<p>#二、安装相应的OpenCV图像工具包<br>1、安装JPEG图像工具包<code>sudo apt install libjpeg8-dev</code></p>
+<p>#二、安装相应的OpenCV图像工具包#<br>1、安装JPEG图像工具包<code>sudo apt install libjpeg8-dev</code></p>
 <p>2、安装TIFF图像工具包<code>sudo apt-get install libtiff5-dev</code></p>
 <p>3、安装Jasper图像工具包<code>sudo apt-get install libjasper-dev</code> </p>
 <p>4、安装PNG图像包<code>sudo apt-get install libpng12-dev</code></p>
-<p>#三、安装视频IO包<br>1、安装FFmpeg视频图像处理<br><code>sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev</code></p>
-<p>#四、安装GTK2.0及其优化包<br>GIMP（名称由 GNU Image Manipulation Program（GNU图像处理程序）的首字母组成）是一个自由及开放原始码的点阵图图像编辑器，用于图像照片润饰及编辑、自由绘图、调整大小、裁剪、相片蒙太奇、装换图像格式以及其他专业任务。</p>
+<p>#三、安装视频IO包#<br>1、安装FFmpeg视频图像处理<br><code>sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev</code></p>
+<p>#四、安装GTK2.0及其优化包#<br>GIMP（名称由 GNU Image Manipulation Program（GNU图像处理程序）的首字母组成）是一个自由及开放原始码的点阵图图像编辑器，用于图像照片润饰及编辑、自由绘图、调整大小、裁剪、相片蒙太奇、装换图像格式以及其他专业任务。</p>
 <p>而GTK+最初是GIMP的专用开发库（GIMP Toolkit），后来发展为Unix-like系統下开发图形界面的应用程序的主流开发工具之一。GTK+是自由软件，并且是GNU计划的一部分。</p>
 <p>1、安装GTK2.0<code>sudo apt install libgtk2.0-dev</code></p>
 <p>2、安装优化包<code>sudo apt-get install libatlas-base-dev gfortran</code></p>
-<p>#五、下载OpenCV的源码包<br>，</p>
-<p>###方法一：官网下载<br><a href="https://opencv.org/releases.html" target="_blank" rel="noopener">点击进入OpenCV官网</a>，选择sources下载。注意下载的文件一定是源码包，而不是.EXE文件。版本可以自己选择<br><img src="http://wx1.sinaimg.cn/mw690/d4213200gy1ftlugr5zyhj20iu0d1mza.jpg" alt=""></p>
-<p>###方法二：从GitHub上下载<br>在Linux下找一个文件夹下载<code>git clone https://github.com/opencv/opencv.git</code></p>
-<p>###方法三：从国内找百度云资源<br>复制链接下载<code>https://pan.baidu.com/s/17STKxlNZDevFafSh0hwuFA</code></p>
-<p>#六、编译OpenCV<br>1、进入相应的opencv下载目录，ps：记得先解压</p>
+<p>#五、下载OpenCV的源码包#<br>，</p>
+<p>###方法一：官网下载###<br><a href="https://opencv.org/releases.html" target="_blank" rel="noopener">点击进入OpenCV官网</a>，选择sources下载。注意下载的文件一定是源码包，而不是.EXE文件。版本可以自己选择<br><img src="http://wx1.sinaimg.cn/mw690/d4213200gy1ftlugr5zyhj20iu0d1mza.jpg" alt=""></p>
+<p>###方法二：从GitHub上下载###<br>在Linux下找一个文件夹下载<code>git clone https://github.com/opencv/opencv.git</code></p>
+<p>###方法三：从国内找百度云资源###<br>复制链接下载<code>https://pan.baidu.com/s/17STKxlNZDevFafSh0hwuFA</code></p>
+<p>#六、编译OpenCV#<br>1、进入相应的opencv下载目录，ps：记得先解压</p>
 <p>2、创建release文件夹 <code>mkdir release</code></p>
 <p>3、进入release文件夹 <code>cd ./release</code></p>
 <p>4、cmake读取所有源码，生成Makefile<br><code>cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local ..</code></p>
 <p>5、正式编译，<code>sudo make</code>。这步编译大概需要一个小时左右，如不出现error，waring等报错信息则代表编译成功。</p>
-<p>#七、安装opencv<br>1、安装 <code>sudo make install</code></p>
+<p>#七、安装opencv#<br>1、安装 <code>sudo make install</code></p>
 <p>2、更新动态链接库 <code>sudo ldconfig</code></p>
 <p>至此，opencv安装成功</p>
-<p>#八、测试代码<br>    import cv2</p>
+<p>#八、测试代码#<br>    import cv2</p>
 <pre><code>def main():
     cap = cv2.VideoCapture(0)
     while(1):
@@ -360,8 +360,8 @@
 
 if __name__ == &apos;__main__&apos;:
     main()
-</code></pre><p>#九、部分问题解决</p>
-<p>###1、摄像无法打开<br>如上述代码报错误<br><code>error: (-215) size.width&gt;0 &amp;&amp; size.height&gt;0 in function cv::imshow</code><br>。</p>
+</code></pre><p>#九、部分问题解决#</p>
+<p>###1、摄像无法打开###<br>如上述代码报错误<br><code>error: (-215) size.width&gt;0 &amp;&amp; size.height&gt;0 in function cv::imshow</code><br>。</p>
 <p>首先检查摄像头是否正常工作。可在Linux的etc配置目录修改一下配置文件，如下。</p>
 <pre><code>sudo nano /etc/modules
 // 进入编辑界面后，在末尾添加输入
@@ -370,9 +370,9 @@ bcm2835-v4l2
 </code></pre><p>可以利用树莓派配置工具打开摄像头模块</p>
 <p>输入<code>sudo raspi-config</code></p>
 <p>进入页面如下</p>
-<p><img src="&quot;http://wx2.sinaimg.cn/mw690/d4213200gy1ftlu0vqm06j20hs0apdii.jpg&quot;" alt=""></p>
+<p><img src="http://wx2.sinaimg.cn/mw690/d4213200gy1ftlu0vqm06j20hs0apdii.jpg" alt=""></p>
 <p>选择camera，再选择enable，即可</p>
-<p>#总结<br>Linux环境下的OpenCV环境配置并不复杂，需要了解一定的Linux文件操作基础以及部分的Linux软件安装方法。</p>
+<p>#总结#<br>Linux环境下的OpenCV环境配置并不复杂，需要了解一定的Linux文件操作基础以及部分的Linux软件安装方法。</p>
 <p>两个Linux入门教程</p>
 <p>①<a href="http://www.imooc.com/learn/175" target="_blank" rel="noopener">Linux达人养成计划</a></p>
 <p>②<a href="http://www.imooc.com/learn/447" target="_blank" rel="noopener">Linux软件安装管理</a></p>
