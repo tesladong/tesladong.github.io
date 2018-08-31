@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="# 2018广东电子设计大赛 #2018电子设计大赛已经结束了，在奋战了30天的情况下获得了广东省电子设计大赛的二等奖，一个不错的结果。更重要的是我们在实验室学到了不少的知识，特此总结。 谨以此文纪念，奋战的一个月。   一、准备论证阶段 平台整体图  理想效果图  二、开始必要的学习1、学习Linux的基本应用通过网上的视频进行学习，这里推荐两个课程 慕课网  Linux达人养成计划 Linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DongHua and DeXian &#39;Blog">
+<meta property="og:url" content="http://yoursite.com/2018/08/31/广东电子设计大赛总结/index.html">
+<meta property="og:site_name" content="DongHua and DeXian &#39;Blog">
+<meta property="og:description" content="# 2018广东电子设计大赛 #2018电子设计大赛已经结束了，在奋战了30天的情况下获得了广东省电子设计大赛的二等奖，一个不错的结果。更重要的是我们在实验室学到了不少的知识，特此总结。 谨以此文纪念，奋战的一个月。   一、准备论证阶段 平台整体图  理想效果图  二、开始必要的学习1、学习Linux的基本应用通过网上的视频进行学习，这里推荐两个课程 慕课网  Linux达人养成计划 Linux">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1fuklgujd3kj21i90u04qp.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/d4213200gy1fusofk1ky4j20hp0jldh0.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/d4213200gy1fuso0w6uwnj20md0pv402.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1fusnblqmoyj20fi0jbgn6.jpg">
+<meta property="og:image" content="http://wx3.sinaimg.cn/mw690/d4213200gy1fusofj5fxmj20jw0fhdgh.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/d4213200gy1fusofjkhhtj20l70cudge.jpg">
+<meta property="og:image" content="http://wx4.sinaimg.cn/mw690/d4213200gy1fuspgr843wj20mw0i3gmp.jpg">
+<meta property="og:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1fusqf0h6bfj23k02o07wl.jpg">
+<meta property="og:image" content="http://wx2.sinaimg.cn/mw690/d4213200gy1fuswostywwj21kw23uhdu.jpg">
+<meta property="og:updated_time" content="2018-08-31T07:19:25.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DongHua and DeXian &#39;Blog">
+<meta name="twitter:description" content="# 2018广东电子设计大赛 #2018电子设计大赛已经结束了，在奋战了30天的情况下获得了广东省电子设计大赛的二等奖，一个不错的结果。更重要的是我们在实验室学到了不少的知识，特此总结。 谨以此文纪念，奋战的一个月。   一、准备论证阶段 平台整体图  理想效果图  二、开始必要的学习1、学习Linux的基本应用通过网上的视频进行学习，这里推荐两个课程 慕课网  Linux达人养成计划 Linux">
+<meta name="twitter:image" content="http://wx1.sinaimg.cn/mw690/d4213200gy1fuklgujd3kj21i90u04qp.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/08/31/广东电子设计大赛总结/"/>
+
+
+
+
+
+  <title> | DongHua and DeXian 'Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">DongHua and DeXian 'Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">hello</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/31/广东电子设计大赛总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Donghua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/d4213200gy1frlk6aiy6vj20ea0gg76i.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DongHua and DeXian 'Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-31T15:22:50+08:00">
+                2018-08-31
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-08-31T15:19:25+08:00">
+                2018-08-31
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="2018广东电子设计大赛"><a href="#2018广东电子设计大赛" class="headerlink" title="# 2018广东电子设计大赛 #"></a>#<center> 2018广东电子设计大赛<center> #</center></center></h2><p>2018电子设计大赛已经结束了，在奋战了30天的情况下获得了广东省电子设计大赛的二等奖，一个不错的结果。更重要的是我们在实验室学到了不少的知识，特此总结。</p>
+<p>谨以此文纪念，奋战的一个月。</p>
+<p><img src="http://wx1.sinaimg.cn/mw690/d4213200gy1fuklgujd3kj21i90u04qp.jpg" alt="合照"></p>
+<hr>
+<h1 id="一、准备论证阶段"><a href="#一、准备论证阶段" class="headerlink" title="一、准备论证阶段"></a>一、准备论证阶段</h1><p><img src="http://wx4.sinaimg.cn/mw690/d4213200gy1fusofk1ky4j20hp0jldh0.jpg" alt=""></p>
+<p><strong>平台整体图</strong></p>
+<p><img src="http://wx3.sinaimg.cn/mw690/d4213200gy1fuso0w6uwnj20md0pv402.jpg" alt=""></p>
+<p><strong>理想效果图</strong></p>
+<hr>
+<h1 id="二、开始必要的学习"><a href="#二、开始必要的学习" class="headerlink" title="二、开始必要的学习"></a>二、开始必要的学习</h1><h3 id="1、学习Linux的基本应用"><a href="#1、学习Linux的基本应用" class="headerlink" title="1、学习Linux的基本应用"></a>1、学习Linux的基本应用</h3><p>通过网上的视频进行学习，这里推荐两个课程</p>
+<p><strong>慕课网</strong></p>
+<ul>
+<li><a href="http://www.imooc.com/learn/175" target="_blank" rel="noopener">Linux达人养成计划</a></li>
+<li><a href="http://www.imooc.com/learn/447" target="_blank" rel="noopener">Linux软件安装管理</a></li>
+</ul>
+<p>学会Linux的基本命令，以及系统的基本构造。</p>
+<h3 id="2、重新理解PID调节"><a href="#2、重新理解PID调节" class="headerlink" title="2、重新理解PID调节"></a>2、重新理解PID调节</h3><p><a href="https://zh.wikipedia.org/wiki/PID%E6%8E%A7%E5%88%B6%E5%99%A8" target="_blank" rel="noopener">维基百科PID</a></p>
+<h3 id="3、多进程"><a href="#3、多进程" class="headerlink" title="3、多进程"></a>3、多进程</h3><p>由于树莓派有四个核心，我们只有通过多进程才能实现多核心的充分利用。</p>
+<p><center><img src="http://wx1.sinaimg.cn/mw690/d4213200gy1fusnblqmoyj20fi0jbgn6.jpg" alt=""></center></p>
+<p><strong>(一核有难，多核围观)</strong><br>推荐学习，廖雪峰的Python教程，<a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431927781401bb47ccf187b24c3b955157bb12c5882d000" target="_blank" rel="noopener">廖雪峰多进程教程</a></p>
+<hr>
+<h1 id="三、开始进度"><a href="#三、开始进度" class="headerlink" title="三、开始进度"></a>三、开始进度</h1><h3 id="1、寻找合适的Linux发行版"><a href="#1、寻找合适的Linux发行版" class="headerlink" title="1、寻找合适的Linux发行版"></a>1、寻找合适的Linux发行版</h3><p>考虑到我们的算法需要大量的运算，我们在不更新硬件的情况下应该挑选一个十分精简的系统（真的要很精简！！）</p>
+<p>经过了强大的Google，终于找到了一个适合的发行版，他的最小安装包只有400MB！！  这是他的官网<a href="https://dietpi.com/" title="Dietpi" target="_blank" rel="noopener">Dietpi</a>，</p>
+<p><strong>DietPi 有如下特点:</strong></p>
+<ul>
+<li>非常的轻量化，系统固件小于500M。</li>
+<li>高度的优化，CPU和内存的占用率小。</li>
+<li>内置大量实用的脚本工具，在命令行的模式下有尽量提供人性化的服务。</li>
+<li>DietPi-Software 工具可以方便且快速的安装各种流行软件。</li>
+<li>DietPi-Config 工具可以便捷的调整软硬件设置。</li>
+<li>DietPi-Backup 工具可以保存和恢复文件系统。</li>
+</ul>
+<p>强烈推荐使用该系统！！<br><a href="http://www.52pi.net/archives/732" title="Dietpi使用说明" target="_blank" rel="noopener">Dietpi使用说明</a>  安装过程请认真看英文，不要一直下一步（洋文真的很重要）</p>
+<h3 id="2、设计图像处理基本流程"><a href="#2、设计图像处理基本流程" class="headerlink" title="2、设计图像处理基本流程"></a>2、设计图像处理基本流程</h3><p><img src="http://wx3.sinaimg.cn/mw690/d4213200gy1fusofj5fxmj20jw0fhdgh.jpg" alt=""></p>
+<p><a href="https://pan.baidu.com/s/1-w4-OYf1ixCHcENKYjK8BQ" target="_blank" rel="noopener">代码下载</a></p>
+<h3 id="3、设计行李箱控制器"><a href="#3、设计行李箱控制器" class="headerlink" title="3、设计行李箱控制器"></a>3、设计行李箱控制器</h3><p><img src="http://wx4.sinaimg.cn/mw690/d4213200gy1fusofjkhhtj20l70cudge.jpg" alt=""></p>
+<p><a href="https://pan.baidu.com/s/1VA0jRAw50LMNp36n9xPAvg" target="_blank" rel="noopener">代码下载</a></p>
+<h3 id="4、设计行李箱外形"><a href="#4、设计行李箱外形" class="headerlink" title="4、设计行李箱外形"></a>4、设计行李箱外形</h3><p><img src="http://wx4.sinaimg.cn/mw690/d4213200gy1fuspgr843wj20mw0i3gmp.jpg" alt=""></p>
+<hr>
+<h1 id="四、疯狂调试"><a href="#四、疯狂调试" class="headerlink" title="四、疯狂调试"></a>四、疯狂调试</h1><h3 id="1、矫正轮子"><a href="#1、矫正轮子" class="headerlink" title="1、矫正轮子"></a>1、矫正轮子</h3><p>由于轮子在转动的过程中，丝杆有松动的情况，所以我们在比赛前需要进行的角度的矫正</p>
+<h3 id="2、一些意外"><a href="#2、一些意外" class="headerlink" title="2、一些意外"></a>2、一些意外</h3><p>在调试期间，在加高压包的模块的时候，没有做好隔离措施，导致了几个芯片的烧毁。</p>
+<p>已阵亡↓↓↓</p>
+<p><img src="http://wx1.sinaimg.cn/mw690/d4213200gy1fusqf0h6bfj23k02o07wl.jpg" alt=""></p>
+<hr>
+<h1 id="五、准备演讲"><a href="#五、准备演讲" class="headerlink" title="五、准备演讲"></a>五、准备演讲</h1><h3 id="1、准备演讲稿"><a href="#1、准备演讲稿" class="headerlink" title="1、准备演讲稿"></a>1、准备演讲稿</h3><p>要言短意骸，毕竟评委老师需要看一整天的作品。</p>
+<p>直接从主要功能讲，最好边讲边进行演示。</p>
+<p>最后态度一定要好，学习的心态，多听听老师对我们的意见。不要忽悠老师，有什么说什么，实诚一点。</p>
+<h3 id="2、心态"><a href="#2、心态" class="headerlink" title="2、心态"></a>2、心态</h3><p>当成一次长见识的经历，不要想着结果，到赛场多看看别人的优秀作品。学到知识是最重要的</p>
+<h3 id="3、结束"><a href="#3、结束" class="headerlink" title="3、结束"></a>3、结束</h3><h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://wx2.sinaimg.cn/mw690/d4213200gy1fuswostywwj21kw23uhdu.jpg" alt=""></h2><h1 id="六、一些经验、及学习过程"><a href="#六、一些经验、及学习过程" class="headerlink" title="六、一些经验、及学习过程"></a>六、一些经验、及学习过程</h1><h3 id="1、保持良好的心态"><a href="#1、保持良好的心态" class="headerlink" title="1、保持良好的心态"></a>1、保持良好的心态</h3><h3 id="2、每天坚持运动"><a href="#2、每天坚持运动" class="headerlink" title="2、每天坚持运动"></a>2、每天坚持运动</h3><h3 id="3、规律作息"><a href="#3、规律作息" class="headerlink" title="3、规律作息"></a>3、规律作息</h3><p>知易行难，希望共勉</p>
+<hr>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/01/Linux基本命令/" rel="next" title="Linux常用命令">
+                <i class="fa fa-chevron-left"></i> Linux常用命令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="http://wx3.sinaimg.cn/mw690/d4213200gy1frlk6aiy6vj20ea0gg76i.jpg"
+                alt="Donghua" />
+            
+              <p class="site-author-name" itemprop="name">Donghua</p>
+              <p class="site-description motion-element" itemprop="description">To live to change the world</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#2018广东电子设计大赛"><span class="nav-number">1.</span> <span class="nav-text"># 2018广东电子设计大赛 #</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一、准备论证阶段"><span class="nav-number"></span> <span class="nav-text">一、准备论证阶段</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、开始必要的学习"><span class="nav-number"></span> <span class="nav-text">二、开始必要的学习</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、学习Linux的基本应用"><span class="nav-number">0.1.</span> <span class="nav-text">1、学习Linux的基本应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、重新理解PID调节"><span class="nav-number">0.2.</span> <span class="nav-text">2、重新理解PID调节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、多进程"><span class="nav-number">0.3.</span> <span class="nav-text">3、多进程</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、开始进度"><span class="nav-number"></span> <span class="nav-text">三、开始进度</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、寻找合适的Linux发行版"><span class="nav-number">0.1.</span> <span class="nav-text">1、寻找合适的Linux发行版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、设计图像处理基本流程"><span class="nav-number">0.2.</span> <span class="nav-text">2、设计图像处理基本流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、设计行李箱控制器"><span class="nav-number">0.3.</span> <span class="nav-text">3、设计行李箱控制器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、设计行李箱外形"><span class="nav-number">0.4.</span> <span class="nav-text">4、设计行李箱外形</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#四、疯狂调试"><span class="nav-number"></span> <span class="nav-text">四、疯狂调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、矫正轮子"><span class="nav-number">0.1.</span> <span class="nav-text">1、矫正轮子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、一些意外"><span class="nav-number">0.2.</span> <span class="nav-text">2、一些意外</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#五、准备演讲"><span class="nav-number"></span> <span class="nav-text">五、准备演讲</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、准备演讲稿"><span class="nav-number">0.1.</span> <span class="nav-text">1、准备演讲稿</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、心态"><span class="nav-number">0.2.</span> <span class="nav-text">2、心态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、结束"><span class="nav-number">0.3.</span> <span class="nav-text">3、结束</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#六、一些经验、及学习过程"><span class="nav-number"></span> <span class="nav-text">六、一些经验、及学习过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、保持良好的心态"><span class="nav-number">0.1.</span> <span class="nav-text">1、保持良好的心态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、每天坚持运动"><span class="nav-number">0.2.</span> <span class="nav-text">2、每天坚持运动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、规律作息"><span class="nav-number">0.3.</span> <span class="nav-text">3、规律作息</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Donghua</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
